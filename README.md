@@ -1,13 +1,13 @@
 # Merge game description
 
   ## UI
-There are two screens in the game. Intro screen and gameplay screen. On the Intro screen, there is a "Start" button on clicking which Gameplay screen is opened. Gameplay screen game board is a 6x6 grid.
+There are two screens in the game. Intro screen and gameplay screen. On the Intro screen, there is a "Start" button on clicking which Gameplay screen is opened. Gameplay screen game board size is dynamic, can be changed in the unity inspector (you can set the number of rows and individualy the number of slots for each row).
   ## Gameplay
 At the start of the game, you have a clear board and the box generator under the board. When you tap on that generator several times, it drops a box on the board. Then tap the box and get a Unit item(first level). 
 
 Your task is to create and join those units of the same level. To Merge one needs two (2) pieces of the same level Unit item and pull one on top of each other. The items now merge to give the next level Unit item. It is not enough to put the items next to each other, they have to be in the same field.
 
-### The project includes:
+### The project also includes:
 
 1. Save/Load system (board state) as JSON data format,
 2. Adaptive UI for each phone size(FullHD(16/9), iPhone X, iPad Pro),
